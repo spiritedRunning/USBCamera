@@ -1,0 +1,5 @@
+process_begin: CreateProcess(D:\android-sdk-windows\ndk\21.4.7075529\prebuilt\windows-x86_64\bin\python.exe, D:/android-sdk-windows/ndk/21.4.7075529/build//../prebuilt/windows-x86_64/bin/python.exe D:/android-sdk-windows/ndk/21.4.7075529/build//../build/ldflags_to_sanitizers.py --module --module --module --module --module --module --module, ...) failed.
+make: D:/android-sdk-windows/ndk/21.4.7075529/build//../build/core/sanitizers.mk:23: pipe: No error
+process_begin: CreateProcess(D:\android-sdk-windows\ndk\21.4.7075529\prebuilt\windows-x86_64\bin\echo.exe, D:/android-sdk-windows/ndk/21.4.7075529/build//../prebuilt/windows-x86_64/bin/echo.exe [arm64-v8a] "Compile++      :" "UVCCamera <= _onload.cpp", ...) failed.
+make (e=216): Error 216
+make: *** [D:/android-sdk-windows/ndk/21.4.7075529/build//../build/core/build-binary.mk:476: E:/code/UVCCamera-master/libuvccamera/build/intermediates/ndkBuild/debug/obj/local/arm64-v8a/objs/UVCCamera/_onload.o] Error 216

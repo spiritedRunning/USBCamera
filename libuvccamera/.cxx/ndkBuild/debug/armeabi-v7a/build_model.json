@@ -1,0 +1,59 @@
+{
+  "variant": {
+    "module": {
+      "rootBuildGradleFolder": "E:\\code\\UVCCamera-master",
+      "sdkFolder": "D:\\android-sdk-windows",
+      "isNativeCompilerSettingsCacheEnabled": false,
+      "isBuildOnlyTargetAbiEnabled": true,
+      "ideBuildTargetAbi": "arm64-v8a,armeabi-v7a,armeabi",
+      "splitsAbiFilterSet": [],
+      "intermediatesFolder": "E:\\code\\UVCCamera-master\\libuvccamera\\build\\intermediates",
+      "gradleModulePathName": ":libuvccamera",
+      "moduleRootFolder": "E:\\code\\UVCCamera-master\\libuvccamera",
+      "makeFile": "E:\\code\\UVCCamera-master\\libuvccamera\\src\\main\\jni\\Android.mk",
+      "buildSystem": "NDK_BUILD",
+      "compilerSettingsCacheFolder": "E:\\code\\UVCCamera-master\\.cxx",
+      "cxxFolder": "E:\\code\\UVCCamera-master\\libuvccamera\\.cxx",
+      "ndkFolder": "D:\\android-sdk-windows\\ndk\\21.4.7075529",
+      "ndkVersion": "21.4.7075529",
+      "ndkSupportedAbiList": [
+        "ARMEABI_V7A",
+        "ARM64_V8A",
+        "X86",
+        "X86_64"
+      ],
+      "ndkDefaultAbiList": [
+        "ARMEABI_V7A",
+        "ARM64_V8A",
+        "X86",
+        "X86_64"
+      ],
+      "cmakeToolchainFile": "."
+    },
+    "buildSystemArgumentList": [],
+    "cFlagList": [],
+    "cppFlagsList": [],
+    "variantName": "debug",
+    "soFolder": "E:\\code\\UVCCamera-master\\libuvccamera\\build\\intermediates\\ndkBuild\\debug\\lib",
+    "objFolder": "E:\\code\\UVCCamera-master\\libuvccamera\\build\\intermediates\\ndkBuild\\debug\\obj\\local",
+    "jsonFolder": "E:\\code\\UVCCamera-master\\libuvccamera\\.cxx\\ndkBuild\\debug",
+    "gradleBuildOutputFolder": "E:\\code\\UVCCamera-master\\libuvccamera\\.cxx\\cxx\\debug",
+    "isDebuggableEnabled": true,
+    "validAbiList": [
+      "ARM64_V8A",
+      "ARMEABI_V7A"
+    ],
+    "buildTargetSet": []
+  },
+  "abi": "ARMEABI_V7A",
+  "abiPlatformVersion": 16,
+  "cxxBuildFolder": "E:\\code\\UVCCamera-master\\libuvccamera\\.cxx\\ndkBuild\\debug\\armeabi-v7a",
+  "jsonFile": "E:\\code\\UVCCamera-master\\libuvccamera\\.cxx\\ndkBuild\\debug\\armeabi-v7a\\android_gradle_build.json",
+  "gradleBuildOutputFolder": "E:\\code\\UVCCamera-master\\libuvccamera\\.cxx\\cxx\\debug\\armeabi-v7a",
+  "objFolder": "E:\\code\\UVCCamera-master\\libuvccamera\\build\\intermediates\\ndkBuild\\debug\\obj\\local\\armeabi-v7a",
+  "buildCommandFile": "E:\\code\\UVCCamera-master\\libuvccamera\\.cxx\\ndkBuild\\debug\\armeabi-v7a\\build_command.txt",
+  "buildOutputFile": "E:\\code\\UVCCamera-master\\libuvccamera\\.cxx\\ndkBuild\\debug\\armeabi-v7a\\build_output.txt",
+  "modelOutputFile": "E:\\code\\UVCCamera-master\\libuvccamera\\.cxx\\ndkBuild\\debug\\armeabi-v7a\\build_model.json",
+  "jsonGenerationLoggingRecordFile": "E:\\code\\UVCCamera-master\\libuvccamera\\.cxx\\ndkBuild\\debug\\armeabi-v7a\\json_generation_record.json",
+  "compileCommandsJsonFile": "E:\\code\\UVCCamera-master\\libuvccamera\\.cxx\\ndkBuild\\debug\\armeabi-v7a\\compile_commands.json"
+}
