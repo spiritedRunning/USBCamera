@@ -14,4 +14,7 @@ Setup environment
 
 3. Use lower version ndk in windows such as android-ndk-r14b
 
+edit in local.properties
+`ndk.dir=D\:\\android-sdk-windows\\ndk\\ndroid-ndk-r14b`
+
 download page: https://github.com/android/ndk/wiki/Unsupported-Downloads
