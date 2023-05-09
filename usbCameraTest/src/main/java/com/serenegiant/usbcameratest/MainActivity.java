@@ -34,6 +34,7 @@ import android.widget.Toast;
 
 import com.serenegiant.common.BaseActivity;
 import com.serenegiant.usb.CameraDialog;
+import com.serenegiant.usb.DeviceFilter;
 import com.serenegiant.usb.IButtonCallback;
 import com.serenegiant.usb.IStatusCallback;
 import com.serenegiant.usb.USBMonitor;
@@ -43,6 +44,7 @@ import com.serenegiant.usb.UVCCamera;
 import com.serenegiant.widget.SimpleUVCCameraTextureView;
 
 import java.nio.ByteBuffer;
+import java.util.List;
 
 public final class MainActivity extends BaseActivity implements CameraDialog.CameraDialogParent {
 
@@ -116,7 +118,14 @@ public final class MainActivity extends BaseActivity implements CameraDialog.Cam
 		public void onClick(final View view) {
 			synchronized (mSync) {
 				if (mUVCCamera == null) {
-					CameraDialog.showDialog(MainActivity.this);
+					//CameraDialog.showDialog(MainActivity.this);
+
+					List<DeviceFilter> filter = DeviceFilter.getDeviceFilters(MainActivity.this, R.xml.device_filter);
+					List<UsbDevice> usbDeviceList = mUSBMonitor.getDeviceList(filter.get(0));
+					if (usbDeviceList.size() <= 0) {
+						return;
+					}
+					mUSBMonitor.requestPermission(usbDeviceList.get(0));
 				} else {
 					releaseCamera();
 				}
