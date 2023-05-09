@@ -129,6 +129,8 @@ public final class MainActivity extends BaseActivity implements CameraDialog.Cam
 	private final OnDeviceConnectListener mOnDeviceConnectListener = new OnDeviceConnectListener() {
 		@Override
 		public void onAttach(final UsbDevice device) {
+			// debug info
+			mUSBMonitor.getDeviceInfo(device);
 			Toast.makeText(MainActivity.this, "USB_DEVICE_ATTACHED", Toast.LENGTH_SHORT).show();
 		}
 
